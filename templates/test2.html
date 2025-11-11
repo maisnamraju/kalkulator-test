@@ -10,4 +10,7 @@
         <option value="2">Option 2</option>
         <option value="3">Option 3</option>
     </select>
+    {% if result is defined %}
+    <p>The result is {{ result }}</p>
+    {% endif %}
 </test.html>

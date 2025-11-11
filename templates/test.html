@@ -1,14 +1,17 @@
-<test.html>
-    <h1>Hello World</h1>
-    <p>This is a test paragraph.</p>
-    <a href="https://www.google.com">Google</a>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-    <button>Click me</button>
-    <input type="text" placeholder="Enter your name">
-    <a href="/test2">Test 2</a>
-    <select>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-    </select>
-</test.html>
+<html>
+    <head>
+        <title>Simple Addition Calculator</title>
+    </head>
+    <body>
+        <h1>Addition Calculator</h1>
+        <form action="/submit" method="post">
+            <input type="number" name="num1" placeholder="Enter first number" required>
+            +
+            <input type="number" name="num2" placeholder="Enter second number" required>
+            <button type="submit">Calculate</button>
+        </form>
+        {% if result is defined %}
+        <p>The result is {{ result }}</p>
+        {% endif %}
+    </body>
+</html>
