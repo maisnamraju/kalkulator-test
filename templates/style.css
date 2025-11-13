@@ -1,0 +1,26 @@
+
+        body {
+            background-color: red;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            border-color: blue;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 50px;
+        }
+        p {
+            color: #483080;
+            text-align: center;
+            margin-top: 50px;
+        }
+    
